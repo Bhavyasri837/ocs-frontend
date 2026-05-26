@@ -2,7 +2,7 @@ import "./BookAppointment.css";
 import { useEffect, useState } from "react";
 // import { useAuth } from "../auth/useAuth";
 import { useAuthFromContext } from "../auth/useAuthFromContext";
-import API from "../api/axios";
+import API from "../Api/axios";
 
 export default function ViewBookedAppointments() {
 

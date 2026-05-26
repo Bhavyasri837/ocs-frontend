@@ -2,7 +2,7 @@ import "./UserProfile.css";
 import { useEffect, useMemo, useState } from "react";
 
 import { useAuth } from "../auth/useAuth";
-import API from "../api/axios";
+import API from "../Api/axios";
 
 function formatDate(value) {
   if (!value) return "";

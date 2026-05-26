@@ -1,7 +1,7 @@
 import "./AddDoctor.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../api/axios";
+import API from "../Api/axios";
 import { useAuth } from "../auth/useAuth";
 
 export default function AddDoctor() {

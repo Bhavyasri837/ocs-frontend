@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./SignUp.css";
 import { useNavigate } from "react-router-dom";
-import API from "../api/axios";
+import API from "../Api/axios";
 
 export default function SignUp() {
 
