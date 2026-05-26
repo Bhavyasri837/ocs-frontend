@@ -1,0 +1,17 @@
+/* Footer styling */
+
+.footer {
+  width: 100%;
+  background: #0f2d20;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 18px 12px;
+  text-align: center;
+  /* position: fixed; */
+  position: sticky;
+  
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}

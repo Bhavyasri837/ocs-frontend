@@ -1,0 +1,80 @@
+.user-profile-page {
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 90px auto 32px;
+}
+
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.logout-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-summary {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.profile-label {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.profile-value {
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.appointments-section {
+  margin-top: 28px;
+}
+
+.appointments-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.appointment-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.appointment-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.appointment-field {
+  min-width: 180px;
+}
+
+.appointment-label {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.appointment-value {
+  font-weight: 600;
+  margin-top: 4px;
+}
+

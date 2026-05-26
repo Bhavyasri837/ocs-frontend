@@ -1,0 +1,141 @@
+/* Home page styling (added because Home.jsx uses classNames but Home.css was missing) */
+
+.home {
+  min-height: 100vh;
+  padding-top: 90px; /* header is fixed */
+  background: linear-gradient(135deg, #f7fffb 0%, #e9f8f1 50%, #f7fffb 100%);
+}
+
+.hero {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url(../assets/heart.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.hero > p:first-child {
+  color: #1a3a2a;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.hero h1 {
+  margin-top: 14px;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1.1;
+  color: #0f2d20;
+}
+
+.hero p {
+  margin-top: 16px;
+  color: rgba(15, 45, 32, 0.75);
+  font-size: 16px;
+}
+
+.hero-buttons {
+  margin-top: 26px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-buttons button {
+  border: 0;
+  background: transparent;
+}
+
+.hero-buttons #aa {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #4caf7d;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 10px 22px rgba(76, 175, 125, 0.25);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.hero-buttons button:nth-child(2) #aa {
+  background: #1a3a2a;
+  box-shadow: 0 10px 22px rgba(26, 58, 42, 0.18);
+}
+
+.hero-buttons #aa:hover {
+  transform: translateY(-1px);
+  background: #3d9e6a;
+}
+
+.stats {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .stats {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(26, 58, 42, 0.12);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.stat-card h2 {
+  font-size: 26px;
+  color: #0f2d20;
+}
+
+.stat-card p {
+  margin-top: 6px;
+  color: rgba(15, 45, 32, 0.7);
+}
+
+.features {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 20px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(26, 58, 42, 0.12);
+  border-radius: 16px;
+  padding: 22px;
+  backdrop-filter: blur(6px);
+}
+
+.feature-card h2 {
+  color: #0f2d20;
+  font-size: 20px;
+}
+
+.feature-card p {
+  margin-top: 10px;
+  color: rgba(15, 45, 32, 0.7);
+  line-height: 1.5;
+}
+

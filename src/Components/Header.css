@@ -1,0 +1,87 @@
+.header {
+  height: 70px;
+  background-color: #1A3A2A; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  /* padding: 205px 40px; */
+  padding: 0 40px;
+  position:fixed; 
+  top: 0;
+  z-index: 100; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.medicare-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+
+.nav-links a {
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.8); 
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s;
+
+    color:white;
+
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgb(213, 208, 52);
+}
+.signup-btn,
+.login-btn {
+  background-color: #4CAF7D;
+  color: white !important;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.signup-btn:hover,
+.login-btn:hover {
+  background-color: #3d9e6a;
+} 
+
+
+
+.mc {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: #d8f3f6;
+}
+

@@ -1,0 +1,108 @@
+.login {
+  background-color: #F7F5F0;
+  min-height: calc(100vh - 120px);
+  padding: 140px 20px 80px;
+  /* background-image:url(../assets/heart.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.login-buttons {
+    max-width: 550px;  
+   margin: 20px auto; 
+  display: flex; 
+  gap: 25px;
+}
+
+ .login-buttons button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #7afdac;
+  color: #1A3A2A;
+  font-weight: bold;
+  cursor: pointer;
+} 
+.login-buttons button:hover
+{
+    transform: scale(1.10);
+    background-color: aqua;
+}
+
+.form-card {
+  background-color: white;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #945d04;
+   box-shadow: 0 4px 24px rgba(26, 58, 42, 0.1); 
+}
+
+.login-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1A3A2A;
+  font-weight: bold;
+}
+.field label {
+  display: block;
+  font-weight: bold;
+  color: #1C1C1C;
+}
+
+.field input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #E2DDD5;
+  border-radius: 10px;
+  background-color: #F7F5F0;
+}
+
+.signin-btn,
+.guest-btn,
+.signup-btn {
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.signin-btn {
+  background-color: #1A3A2A;
+  color: white;
+}
+.signin-btn:hover,
+.guest-btn:hover,
+.signup-btn:hover{
+  transform: scale(1.05);
+  background-color:rgb(216, 83, 134);
+}
+
+.guest-btn,
+.signup-btn {
+  background-color: #068336;
+  color: #1A3A2A;
+}
+
+.or-text,
+.new-user {
+  text-align: center;
+  color: #6B7280;
+  margin-top: 15px;
+}

@@ -1,0 +1,102 @@
+ .add-page {
+     background-color: white;
+     min-height: 100vh;
+     padding: 90px;
+ }
+
+ .add-page h2 {
+     color: darkgreen;
+     font-size: 35px;
+     text-align: center;
+ }
+
+ .add-page>p {
+     color: black;
+     font-size: 18px;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ .field {
+     color: black;
+     margin-bottom: 30px;
+ }
+
+ .field label {
+     display: block;
+     font-weight: bold;
+     font-size: 14px;
+     margin-bottom: 8px;
+ }
+
+ .field input,
+ .field select {
+     width: 100%;
+     padding: 12px 14px;
+     border: 1.5px solid white;
+     border-radius: 10px;
+     font-size: 15px;
+     background-color: aliceblue;
+ }
+
+ .field textarea {
+     min-height: 90px;
+     resize: vertical;
+ }
+
+ .butt1 {
+     width: 100%;
+     padding: 12px 13px;
+     background-color: rgb(7, 151, 28);
+     color: white;
+     font-size: 15px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .butt1:hover {
+     background-color: darkgreen;
+ }
+
+ .form-card {
+     background-color: white;
+     max-width: 550px;
+     margin: 0 auto;
+     padding: 30px;
+     border-radius: 16px;
+     border: 1px solid #E2DDD5;
+ }
+
+ .butt2 {
+     width: 100%;
+     padding: 12px 13px;
+     background-color: rgb(7, 151, 28);
+     color: white;
+     font-size: 15px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .butt2:hover {
+     background-color: darkgreen;
+ }
+
+ .doctor-remove-card {
+     border: 1px solid #E2DDD5;
+     border-radius: 12px;
+     padding: 16px;
+     margin-bottom: 16px;
+     background-color: #F7F5F0;
+ }
+
+ .doctor-remove-card h3 {
+     color: #1A3A2A;
+     margin-bottom: 6px;
+ }
+
+ .doctor-remove-card p {
+     margin: 4px 0;
+     color: #6B7280;
+ }
