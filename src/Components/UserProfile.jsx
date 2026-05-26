@@ -1,6 +1,6 @@
 import "./UserProfile.css";
 import { useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import { useAuth } from "../auth/useAuth";
 import API from "../api/axios";
 
@@ -14,8 +14,10 @@ function formatDate(value) {
 }
 
 export default function UserProfile() {
-  const navigate = useNavigate();
-  const { isLoggedIn, role, logout } = useAuth();
+  // const navigate = useNavigate();
+
+  const { isLoggedIn, role } = useAuth();
+
 
   const [user, setUser] = useState(null);
   const [appointments, setAppointments] = useState([]);
@@ -61,12 +63,15 @@ export default function UserProfile() {
     }
   };
 
-  const handleLogout = () => {
-    logout();
-    localStorage.removeItem("userId");
-    localStorage.removeItem("userRole");
-    navigate("/userlogin");
-  };
+  // Logout handler is currently unused (button is commented out).
+  // Keeping it commented out avoids lint errors in case-sensitive setups.
+  // const handleLogout = () => {
+  //   logout();
+  //   localStorage.removeItem("userId");
+  //   localStorage.removeItem("userRole");
+  //   navigate("/userlogin");
+  // };
+
 
   useEffect(() => {
     if (!isLoggedIn || role !== "user") return;
