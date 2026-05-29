@@ -36,8 +36,7 @@ export default function RemoveDoctor() {
       alert("Please login to continue");
       return;
     }
-
-    if (role !== "ADMIN") {
+    if (role?.toLowerCase() !== "admin") {
       alert("Only admin can remove doctors");
       return;
     }

@@ -30,7 +30,13 @@ export default function AdminLogin() {
     ) {
       setIsLoggedIn(true);
       setRole("admin");
-      saveAuthToStorage(true, "admin");
+
+      // saveAuthToStorage(true, "admin");
+
+      saveAuthToStorage({
+      isLoggedIn: true,
+      role: "admin"
+      });
 
       alert("Admin login successful");
       navigate("/admindashboard");
